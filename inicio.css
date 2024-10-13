@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenedor del banner */
+.contenedor {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Video */
+.background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.48);
+    position: relative;
+}
+
+/* Navegación */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.logo img {
+    height: 30px;
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+    .logo img {
+        height: 60px;
+        width: 200px;
+    }
+}
+
+/* Usuario */
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Aumenta el espacio entre el icono y el nombre */
+}
+
+.user--icono img {
+    width: 80px; /* Aumenta el tamaño del icono */
+    height: 80px;
+}
+
+.user--nombre {
+    font-weight: 700;
+    color: white;
+    font-size: 20px; /* Aumenta el tamaño del texto del nombre */
+}
+
+@media (min-width: 768px) {
+    .user--nombre {
+        font-size: 25px;
+    }
+}
+
+/* Contenido del banner */
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center; /* Centra el contenido */
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+
+@media (min-width: 992px) {
+    .contenido {
+        flex-direction: row;
+    }
+}
+
+/* Información */
+.informacion {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .informacion {
+        flex: none;
+    }
+}
+
+.informacion--contenido {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Ajustado para mejorar el espaciado entre elementos */
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+@media (min-width: 992px) {
+    .informacion--contenido {
+        text-align: start;
+        gap: 30px;
+    }
+}
+
+.informacion--titulo {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.informacion--parrafo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .informacion--titulo {
+        font-size: 60px;
+    }
+
+    .informacion--parrafo {
+        font-size: 25px;
+    }
+}
+
+/* Animaciones */
+.animacion {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
+
+/* Estilo para el botón "Inicia Tu Aventura" */
+.btn-ver-mas {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff5722; /* Color naranja típico */
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 30px; /* Espacio superior del botón */
+}
+
+.btn-ver-mas:hover {
+    background-color: #e64a19;
+    transform: scale(1.1);
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Diario Del Ninja</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <h1>Bienvenidos al Diario del Ninja</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="jutsus.html" class="nav-link">Jutsus</a></li>
+                    <li><a href="episodios.html" class="nav-link">Episodios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="img/slider 1.png" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="img/slider 2.png" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="img/slider3.png" alt="Imagen 3">
+            </div>
+        </div>
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- Video de YouTube -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/P1yJ51DH-18?autoplay=1" frameborder="0"
+            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <main>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="img/naruto.jpg" alt="Naruto Uzumaki">
+                <div class="card-content">
+                    <h2>Naruto Uzumaki</h2>
+                    <p><strong>Descripción:</strong> Naruto Uzumaki es el protagonista principal de la serie de anime y
+                        manga Naruto. Es un joven ninja de la Aldea de la Hoja, Konoha, conocido por su determinación,
+                        optimismo y un espíritu indomable.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Sasuke.jpg" alt="Sasuke Uchiha">
+                <div class="card-content">
+                    <h2>Sasuke Uchiha</h2>
+                    <p><strong>Descripción:</strong> Sasuke Uchiha es uno de los personajes principales del anime y
+                        manga Naruto. Es un ninja prodigio de la Aldea de la Hoja, Konoha, y miembro del clan Uchiha,
+                        uno de los más poderosos de la aldea.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Sakura.jpg" alt="Sakura Haruno">
+                <div class="card-content">
+                    <h2>Sakura Haruno</h2>
+                    <p><strong>Descripción:</strong> Sakura Haruno es un personaje principal de la serie Naruto.
+                        Inicialmente, es presentada como una kunoichi de la Aldea de la Hoja con una personalidad fuerte
+                        y decidida, pero también algo insegura y enamoradiza de Sasuke Uchiha.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Kakashi.jpg" alt="Kakashi Hatake">
+                <div class="card-content">
+                    <h2>Kakashi Hatake</h2>
+                    <p><strong>Descripción:</strong> Kakashi es un shinobi de Konohagakure, reconocido por su habilidad
+                        para copiar casi cualquier jutsu que vea gracias a su Sharingan. Su vida ha estado marcada por
+                        la tragedia, lo que lo ha convertido en un ninja solitario y reservado, pero también en un líder
+                        sabio y experimentado.</p>
+                </div>
+            </div>
+
+            <!-- Personajes del Equipo 8 -->
+            <div class="card">
+                <img src="img/kurenai.jpeg" alt="Kurenai Yuhi">
+                <div class="card-content">
+                    <h2>Kurenai Yuhi</h2>
+                    <p><strong>Descripción:</strong> Kurenai Yuhi es una ninja de Konoha y líder del Equipo 8. Es
+                        experta en técnicas de ilusión y se preocupa profundamente por sus alumnos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/kiba.jpg" alt="Kiba Inuzuka">
+                <div class="card-content">
+                    <h2>Kiba Inuzuka</h2>
+                    <p><strong>Descripción:</strong> Kiba Inuzuka es un miembro del Equipo 8 y tiene un fuerte vínculo
+                        con su perro Akamaru. Es conocido por sus habilidades en combate y su sentido agudo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/shino.jpg" alt="Shino Aburame">
+                <div class="card-content">
+                    <h2>Shino Aburame</h2>
+                    <p><strong>Descripción:</strong> Shino Aburame es otro miembro del Equipo 8, conocido por su uso de
+                        insectos en combate. Es reservado y extremadamente competente en su especialidad.</p>
+                </div>
+            </div>
+
+            <!-- Personajes del Equipo 9 -->
+            <div class="card">
+                <img src="img/Asuma.jpg" alt="Asuma Sarutobi">
+                <div class="card-content">
+                    <h2>Asuma Sarutobi</h2>
+                    <p><strong>Descripción:</strong> Asuma Sarutobi es el líder del Equipo 10 y un ninja altamente
+                        capacitado en el uso de chakra en sus cuchillas. Es conocido por su sabiduría y su actitud
+                        relajada.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/choji.jpg" alt="Choji Akimichi">
+                <div class="card-content">
+                    <h2>Choji Akimichi</h2>
+                    <p><strong>Descripción:</strong> Choji Akimichi es miembro del Equipo 10, conocido por su habilidad
+                        para aumentar su tamaño y fuerza. Es un amigo leal y tiene un gran apetito.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Ino.jpg" alt="Ino Yamanaka">
+                <div class="card-content">
+                    <h2>Ino Yamanaka</h2>
+                    <p><strong>Descripción:</strong> Ino Yamanaka es otra miembro del Equipo 10, conocida por su
+                        habilidad en técnicas de control mental. Es una ninja decidida y tiene una personalidad fuerte.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Personajes de Akatsuki -->
+            <div class="card">
+                <img src="img/Pain.jpg" alt="Pain">
+                <div class="card-content">
+                    <h2>Pain</h2>
+                    <p><strong>Descripción:</strong> Pain es uno de los líderes de la organización Akatsuki, conocido
+                        por su habilidad para controlar seis cuerpos diferentes con el Rinnegan. Su verdadero nombre es
+                        Nagato y busca la paz mundial a través del control y la fuerza.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Kisame.jpg" alt="Kisame Hoshigaki">
+                <div class="card-content">
+                    <h2>Kisame Hoshigaki</h2>
+                    <p><strong>Descripción:</strong> Kisame Hoshigaki es un miembro de Akatsuki conocido por su gran
+                        fuerza y su habilidad para usar el Samehada, una espada que puede devorar chakra. Trabaja en
+                        pareja con Itachi Uchiha.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Deidara.jpg" alt="Deidara">
+                <div class="card-content">
+                    <h2>Deidara</h2>
+                    <p><strong>Descripción:</strong> Deidara es un miembro de Akatsuki con un talento especial para el
+                        arte explosivo. Utiliza arcilla explosiva para crear bombas y figuras que explotan.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Sasori.jpg" alt="Sasori">
+                <div class="card-content">
+                    <h2>Sasori</h2>
+                    <p><strong>Descripción:</strong> Sasori es un miembro de Akatsuki y un maestro titiritero. Se
+                        especializa en el uso de marionetas para combatir y es conocido por su habilidad para crear
+                        marionetas mortales.</p>
+                </div>
+            </div>
+
+            <!-- Hokages de la Aldea de la Hoja -->
+            <div class="card">
+                <img src="img/Hashirama.webp" alt="Hashirama Senju">
+                <div class="card-content">
+                    <h2>Hashirama Senju</h2>
+                    <p><strong>Descripción:</strong> Hashirama Senju fue el primer Hokage de la Aldea de la Hoja y uno
+                        de los fundadores de la aldea. Es conocido por su habilidad en técnicas de madera y su deseo de
+                        traer paz al mundo ninja.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Tobirama.webp" alt="Tobirama Senju">
+                <div class="card-content">
+                    <h2>Tobirama Senju</h2>
+                    <p><strong>Descripción:</strong> Tobirama Senju fue el segundo Hokage de Konoha y el hermano menor
+                        de Hashirama. Es conocido por desarrollar técnicas avanzadas como el Hiraishin (Técnica de
+                        Teletransportación) y por fundar la Academia Ninja.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Hiruzen.webp" alt="Hiruzen Sarutobi">
+                <div class="card-content">
+                    <h2>Hiruzen Sarutobi</h2>
+                    <p><strong>Descripción:</strong> Hiruzen Sarutobi, el tercer Hokage, fue conocido como el "Ninja
+                        Sabio" por su gran conocimiento y habilidades en ninjutsu. Fue una figura clave en la historia
+                        de Konoha y mentor de muchos ninjas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/minato.jpg" alt="Minato Namikaze">
+                <div class="card-content">
+                    <h2>Minato Namikaze</h2>
+                    <p><strong>Descripción:</strong> Minato Namikaze, el cuarto Hokage, es conocido como el "Relámpago
+                        Amarillo de Konoha" por su velocidad y habilidades. Fue el padre de Naruto Uzumaki y sacrificó
+                        su vida para proteger la aldea.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Tsunade.jpg" alt="Tsunade Senju">
+                <div class="card-content">
+                    <h2>Tsunade Senju</h2>
+                    <p><strong>Descripción:</strong> Tsunade Senju, la quinta Hokage, es una de los tres legendarios
+                        Sannin y es conocida por su habilidad en la medicina ninja y su fuerza sobrehumana. Lideró la
+                        aldea con determinación y sabiduría.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Danzo.webp" alt="Danzo Shimura">
+                <div class="card-content">
+                    <h2>Danzo Shimura</h2>
+                    <p><strong>Descripción:</strong> Danzo Shimura, aunque no oficialmente Hokage, tuvo gran influencia
+                        en la política de Konoha. Fue conocido por sus métodos extremos para mantener la seguridad y su
+                        uso de los Sharingan.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 El Diario Del Ninja. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-link">
+                <img src="img/facebook.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-link">
+                <img src="img/twitter.png" alt="Twitter" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-link">
+                <img src="img/instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <!-- Añadir más redes sociales según sea necesario -->
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach((slide) => {
+                slide.style.display = 'none';
+            });
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = 'block';
+            setTimeout(showSlides, 5000); // Cambia la imagen cada 5 segundos
+        }
+
+        function moveSlide(n) {
+            showSlides(slideIndex += n);
+        }
+    </script>
+</body>
+
+</html>
